@@ -1,6 +1,5 @@
 ## Getting Started
 
-#### Setting up the Server
 
 1. **Navigate to the server directory**:
    ```sh
