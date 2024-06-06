@@ -1,0 +1,32 @@
+/* 导航栏背景色和阴影 */
+.nav-menu {
+    background-color: #00458b; /* 深蓝色背景 */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 菜单项样式 */
+.nav-menu .ant-menu-item {
+    border-bottom: 2px solid transparent; /* 隐藏默认的边框线 */
+}
+
+/* 菜单项悬停和选中样式 */
+.nav-menu .ant-menu-item:hover,
+.nav-menu .ant-menu-item-selected {
+    border-bottom-color: #fff; /* 白色底部边框 */
+}
+
+/* 链接样式 */
+.nav-menu .ant-menu-item a {
+    color: #fff; /* 白色文字 */
+    font-weight: 500; /* 字体加粗 */
+}
+/* 添加过渡动画 */
+.nav-menu .ant-menu-item a {
+    transition: color 0.3s, background-color 0.3s;
+}
+
+/* 悬停时改变背景和文字颜色 */
+.nav-menu .ant-menu-item:hover a {
+    background-color: #0260e8; /* 亮蓝色背景 */
+    color: #ffd700; /* 金色文字 */
+}
